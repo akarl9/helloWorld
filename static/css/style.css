@@ -1,0 +1,23 @@
+/* Changed the paragraph color to blue and changed the font to 1.1 larger than the surrounding webpage fonts*/
+p{color: blue;
+    font-size: 1.1em;}
+
+/* Changed the level 2 headers to be underlined and dark grey to improve readability*/
+h2 { color: darkgrey;
+    text-decoration: underline;}
+
+/* Added a solid border to the existing table, and changed the color to blue*/
+table, td, th {
+    border-style: solid;
+    border-color: blue;}
+
+p#third-para {
+    color: darkblue;
+    font-size:17px;}
+
+h1.big-header{
+    text-decoration: underline}
+
+img.logo{
+    width: 267px;
+    height:72px;}
