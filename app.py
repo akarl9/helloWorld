@@ -222,7 +222,7 @@ def page_not_found(e):
 @app.route('/training')
 @login_required
 @role_required(['ADMIN', 'MANAGER'])
-def training_view():
+def training():
     return render_template('training.html')
 
 if __name__ == '__main__':
