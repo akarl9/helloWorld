@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block page_title %}
+    Training
+{% endblock %}
+
+{% block page_head %}
+    Training
+{% endblock %}
+
+{% block page_content %}
+    <!--Added a paragraph that is present on the training nav bar in Manager and Admin to welcome users/notify users to email.-->
+    <p><strong> Welcome to your training for the TerpSys Student Information System.</strong></p>
+    <p>Training materials are currently under construction, but will be created very soon.
+    Please check back soon or email Abigail Karl at
+    <a href="mailto:akarl@terpmail.umd.edu">akarl@terpmail.umd.edu</a> if you wish to be placed on the waiting list.</p>
+
+
+{% endblock %}
